@@ -1,4 +1,4 @@
-package com.gunock.pod.cipher
+package com.gunock.pod.encrypter
 
 import com.gunock.pod.utils.FormUtil
 

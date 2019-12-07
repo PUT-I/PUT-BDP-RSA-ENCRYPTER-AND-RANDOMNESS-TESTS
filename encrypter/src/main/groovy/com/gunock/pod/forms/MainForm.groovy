@@ -1,6 +1,6 @@
 package com.gunock.pod.forms
 
-import com.gunock.pod.cipher.RsaEncrypter
+import com.gunock.pod.encrypter.RsaEncrypter
 import com.gunock.pod.utils.FormUtil
 import com.gunock.pod.utils.HelperUtil
 
@@ -40,7 +40,7 @@ class MainForm extends JFrame {
         createTextFileChooser()
         createKeyFileChooser()
 
-        this.setTitle('Main Menu')
+        this.setTitle('Encrypter and randomness tests')
         this.setDefaultCloseOperation(EXIT_ON_CLOSE)
         this.getContentPane().add(keyLengthPanel)
         this.getContentPane().add(textLengthPanel)
